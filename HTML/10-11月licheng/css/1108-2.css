@@ -1,0 +1,91 @@
+h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 800px;
+	height: 500px;
+	background:#ff80ab url(../../1030/img/22.png)no-repeat center 27px ;
+	overflow: hidden;
+}
+.box{
+	width: 681px;
+	height: 382px;
+	background-color: #fff;
+	margin: 99px auto;
+	overflow: hidden;
+}
+.box .top{
+	width: 621px;
+	height: 322px;
+	margin: 29px auto;
+}
+.top .head{
+	width: 621px ;
+	height: 21px;
+	background: url(../../1121/img/1108-1.png) no-repeat;
+}
+.head h3{
+	font-size: 16px;
+	color: #000;
+	margin-left: 26px;
+}
+.left-left{
+	width: 621px;
+	height: 141px;
+	border-bottom: 1px dashed #dcdcdc;
+	padding-top: 20px;
+}
+.left-left .left{
+	width: 310px;
+	height: 161px;
+	float: left;
+	
+}
+.left-left .left .text{
+	width: 186px;
+	height: 100px;
+	float: left;
+	line-height: 27px;
+}
+.left-left img{
+	float: left;
+}
+.left-left a{
+	float: left;
+	font-size: 14px;
+	color: #3a3a3a;
+	margin-left: 6px;
+}
+.bottom{
+	width:620px;
+	height: 120px;
+	word-spacing: 14px;
+}
+.bottom li{
+	width: 310px;
+	height: 30px;
+	margin-bottom: 10px;
+	float: left;
+}
+.bottom span{
+	width: 100px;
+	height: 30px;
+	background-color: #a775f1;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.bottom a{
+	font-size: 14px;
+	color: #3d3d3d;
+}

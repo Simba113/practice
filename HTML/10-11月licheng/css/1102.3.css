@@ -1,0 +1,41 @@
+div{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 800px;
+	height: 500px;
+	background:#f06997 url(../../1030/img/22.png) no-repeat center 38px;
+	padding: 130px 50px;
+}
+.box{
+	width: 700px;
+	height: 320px;
+}
+.box .head{
+	width: 671px;
+	height: 41px;
+	font-size: 0;
+}
+.head a:hover{
+	background-color: #fff;
+}
+.head a{
+	width: 161px;
+	height: 41px;
+	display:inline-block;
+	background-color: #f8b4cb;
+	font-size: 14px;
+	color: #3d2930;
+	text-align: center;
+	line-height: 41px;
+	margin-right:9px;
+}
+.box .body{
+	width: 700px;
+	height: 281px;
+	background-color: #fff;
+	
+}

@@ -1,0 +1,43 @@
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 800px;
+	height: 394px;
+	background: #ff80ab url(../../1030/img/22.png) no-repeat center 35px;
+	padding-top: 106px;
+}
+.box{
+	width: 710px;
+	height: 367px;
+	margin: 0 auto;
+}
+.box .head{
+	width: 646px;
+	height: 38px;
+	background-color: #fceef1;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: center;
+}
+.box .head a{
+	border:1px solid #e7788d;
+	display: inline-block;
+	width: 128px;
+	height: 38px;
+	font-size: 16px;
+	margin-left: -1px;
+	line-height: 38px;
+	color: #e67b8e;
+}
+.box .head a:hover{
+	background-color: #fff;
+	color: #000;
+	border-bottom: 2px solid #fff;
+}
+.bottom{
+	width: 710px;
+	height: 326px;
+	background: url(../../1116licheng/img/dingwei7.png) no-repeat center 0;
+	border-top:2px solid #e7788d;
+}

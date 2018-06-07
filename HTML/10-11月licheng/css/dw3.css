@@ -1,0 +1,66 @@
+div{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 800px;
+	height: 500px;
+	background:#ff80ab url(../../1030/img/22.png) no-repeat center 35px;
+	padding: 107px 46px 0 46px;
+}
+.box{
+	width:711px;
+	height: 368px;
+	background-color: #fff;
+	padding: 27px;
+}
+section{
+	width: 660px;
+	height: 277px;
+	position: relative;
+}
+section .img-bottom{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 660px;
+	height: 40px;
+}
+.img-bottom{
+	width: 651px;
+	height: 40px;
+	background-color: #2f5b64;
+	opacity: 0.6;
+}
+section a{
+	position: absolute;
+	left: 11px;
+	bottom: 10px;
+	color: #f5f7f7;
+	font-size: 14px;
+}
+footer div{
+	float: right;
+}
+footer{
+	height: 30px;
+	padding-top: 10px;
+}
+footer a{
+	color: #3f3f3f;
+	font-size: 14px;
+}
+footer div .one{
+	background: url(../img/dw32.png) no-repeat;
+	background-position: 0 center;
+	
+}
+footer div a{
+	background: url(../img/dw33.png) no-repeat;
+	padding-left: 16px;
+	background-position: 0 center;
+	color: #3f3f3f;
+	font-size: 14px;
+}

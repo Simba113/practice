@@ -1,0 +1,92 @@
+h5{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 898px;
+	height: 344px;
+	padding-top: 10px;
+}
+.box{
+	width: 880px;
+	height: 251px;
+	border: 1px solid #e8e8e8;
+	margin: 0 auto;
+}
+.head{
+	width: 430px;
+	height: 50px;
+	font-size: 0;
+	text-align: center;
+}
+.head h5{
+	font-size: 18px;
+	color: #797570;
+	display: inline-block;
+	height: 18px;
+	line-height: 50px;
+}
+.head span{
+	border-right: 1px solid #e8e8e8;
+	padding-left: 15px;
+	margin-right: 15px;
+}
+.left{
+	width: 866px;
+	height: 200px;
+	margin-left: 15px;
+}
+.left1{
+	width: 170px;
+	height: 200px;
+	margin-right: 9px;
+	float: left;
+	position: relative;
+}
+.left1 img{
+	padding-bottom: 10px;
+}
+.left1 .bj{
+	width: 170px;
+	height: 31px;
+	background-color: #f2f2f2;
+	position: absolute;
+	left: 0;
+	top: 80px;
+	opacity: 0.6;
+
+	
+}
+.left1 .text{
+	position: absolute;
+	left: 0;
+	top:85px;
+	margin-left: 40px;
+	line-height: 28px;
+}
+.left1 a{
+	font-size: 14px;
+	color: #3c3c3c;
+	display: inline-block;
+	line-height: 30px;
+}
+.left1 .red{
+	color: #ff4400;
+}
+.left .right{
+	float: right;
+}
+.foot{
+	width: 880px;
+	height: 70px;
+	margin-top: 11px;
+}

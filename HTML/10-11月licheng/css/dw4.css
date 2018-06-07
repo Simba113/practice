@@ -1,0 +1,44 @@
+div{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 496px;
+	height: 177px;
+	background-color: #fff;
+	padding-top:66px;
+	padding-left: 42px;
+}
+.box{
+	width: 385px;
+	height: 41px;
+	border: 1px solid transparent;
+	font-size: 0;
+	
+}
+.box a{
+	display: inline-block;
+	height: 39px;
+	text-align: center;
+	font-size: 14px;
+	color: #f06000;
+	line-height: 39px;
+	border-right: 1px solid #0000f0;
+	border-top:1px solid #0000f0;
+	border-bottom:1px solid #0000f0;
+	border-left: 1px solid #0000f0;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	margin-left: -1px;
+}
+.box a:hover{
+	border-right: 1px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-left: 1px solid #000;
+}
+.box a:hover+a{
+	border-left:1px solid #000;
+}

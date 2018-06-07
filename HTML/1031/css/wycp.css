@@ -1,0 +1,14 @@
+#box{
+	width:298px;
+	height:29px;
+	border-top:2px solid #206f96;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	border-bottom: 2px solid #cfcfcf;
+	background: url(../img/wycp.jpg);
+}
+.bing-box{
+	width: 298px;
+	height:386px;
+	border:1px solid #CFCFCF;
+}

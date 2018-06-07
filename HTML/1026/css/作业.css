@@ -1,0 +1,26 @@
+#box{
+	width: 260px;
+	height: 400px;
+	border:1px solid #88CC28;
+	border-top:2px solid #000000;
+}
+#fangkuai1{
+	width: 260px;
+	height: 60px;
+	border-bottom: 1px solid #000000;
+}
+#fangkuai2{
+	width: 260px;
+	height: 100px;
+	border-bottom: 1px solid #0000FF;
+}
+#fangkuai3{
+	width: 260px;
+	height: 70px;
+	border-bottom: 1px solid #000000;
+}
+#fangkuai4{
+	width: 260px;
+	height: 30px;
+	border-bottom: 1px solid #000000;
+}

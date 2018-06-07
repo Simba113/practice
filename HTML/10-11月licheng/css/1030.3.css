@@ -1,0 +1,35 @@
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top; border:none;
+}
+p{
+	margin: 0;
+}
+.big-box{
+	width: 750px;
+	height: 370px;
+	border:1px solid #f06997;
+	background:#f06997 url(../../1030/img/22.png) no-repeat 310px 42px;
+	padding: 130px 0 0 50px;
+}
+.box{
+	width: 700px;
+	height: 281px;
+	background-color: #fff;
+	text-align: center;
+	padding-top:39px;
+}
+.box a{
+	color: #f16c94;
+}
+.box .text{
+	height: 48px;
+	text-align: center;
+	margin-top: 20px;
+}
+.box p{
+	font-size: 14px;
+	color: #7c7c7c;
+}

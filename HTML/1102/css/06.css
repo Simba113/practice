@@ -1,0 +1,45 @@
+.box{
+	width:690px;
+	height:500px;
+	background-color:#f06997;
+	background-image:url(../img/601.jpg);
+	background-repeat: no-repeat;
+	background-position:center 34px;
+	padding:119px 55px 0 55px;
+}
+.menu{
+	width:686px;
+	height:335px;
+	border:2px solid #a4005b;
+	background-color:#ffffff;
+	
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 58px;
+}
+li:hover{
+	background-color:#e7788d;
+	color:#fff;
+}
+.jian{
+	background-image: url(../img/602.png);
+	background-repeat:no-repeat;
+	background-position: 648px center;
+}
+#duigou{
+	background-image:url(../img/604.jpg);
+	background-repeat:no-repeat;
+	background-position:30px center;
+}
+#yuan{
+	background-image:url(../img/605.png);
+	background-repeat:no-repeat;
+	background-position: 30px center;
+}

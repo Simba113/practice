@@ -1,0 +1,169 @@
+h3,h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+	border: none;
+}
+.big-box{
+	width: 800px;
+	height: 386px;
+	background:#ff80ab url(../../1030/img/22.png) no-repeat center 35px;
+	padding-top: 114px;
+}
+.box{
+	width: 680px;
+	height: 355px;
+	margin: 0 auto;
+}
+.top{
+	width: 680px;
+	height: 212px;
+	background-color: #fff;
+	
+}
+.top .head{
+	width: 680px;
+	height: 62px;
+	background: url(../../1121/img/zhuda.png)no-repeat 0 20px;
+	margin-left: 16px;
+}
+.top .head h3{
+	font-size: 20px;
+	color: #000;
+	line-height: 62px;
+	margin-left: 27px;
+}
+.top-body{
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+	padding-left: 16px;
+}
+.left{
+	position: relative;
+	float: left;
+	height: 150px;
+
+}
+.left-text{
+	float: right;
+	width: 150px;
+}
+.left-text a{
+	display: block;
+	font-size: 14px;
+	color: #6a6a6a;
+	line-height: 25px;
+}
+.left-text h4{
+	font-size: 18px;
+	color: #e7788d;
+	line-height: 29px;
+}
+.noe{
+	position: absolute;
+	top: 0;
+	z-index: 3;
+}
+.top-body .two{
+	width: 122px;
+	height: 121px;
+	background-color: #ffb3b3;
+	position: absolute;
+	top: 5px;
+	z-index: 2;
+	left: 4px;
+}
+.top-body .mai{
+	width: 70px;
+	height: 30px;
+	background-color: #e7788d;
+	text-align: center;
+	float: left;
+}
+.top-body .mai a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+}
+.top-body .yu{
+	width: 70px;
+	height: 30px;
+	border: 1px solid #e7788d;
+	float: right;
+	text-align: center;
+}
+.top-body .yu a{
+	font-size: 14px;
+	color: #e7788d;
+	line-height: 30px;
+}
+.top-body .three{
+	width: 114px;
+	height: 121px;
+	background-color: #ffd9d9;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.right{
+	position: relative;
+	float: left;
+}
+.four{
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	
+}
+.five{
+	width: 122px;
+	height: 120px;
+	background-color: #f5c472;
+	position: absolute;
+	top:6px;
+	left: 4px;
+	z-index: 2;
+}
+.six{
+	width: 114px;
+	height: 120px;
+	background-color: #f8daa7;
+	position: absolute;
+	top:11px;
+	left: 8px;
+	z-index: 1;
+}
+.bottom{
+	width: 680px;
+	height: 141px;
+	border-top:1px solid #fae3bc;
+	background-color: #fdf6ea;
+}
+.bottom-body{
+	width: 145px;
+	height: 140px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+}
+.bottom-body img{
+	margin-top: 20px;
+}
+.bottom-body a{
+	font-size: 16px;
+	color: #323433;
+	line-height: 32px;
+	
+}

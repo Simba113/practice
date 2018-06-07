@@ -1,0 +1,24 @@
+#box{
+	width: 798px;
+	height: 498px;
+	border:1px solid #f06997;
+	background-color: #f06997;
+	background-image:url(../img/601.jpg);
+	background-repeat:no-repeat;
+	background-position:center 40px;
+}
+#text{
+	width: 700px;
+	height: 320px;
+	background-color: #ffffff;
+	margin-top:130px;
+	margin-left: 50px;
+	text-align: center;
+}
+h2{
+	color:#f05c8a;
+	padding-top: 40px;
+}
+h3{
+	color:#a8a8a8;
+}

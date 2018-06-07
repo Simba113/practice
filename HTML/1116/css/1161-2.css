@@ -1,0 +1,108 @@
+h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 800px;
+	height: 405px;
+	background:#ff80ab url(../../1030/img/22.png)no-repeat center 34px;
+	padding-top: 95px;
+}
+.box{
+	width: 710px;
+	height: 377px;
+	background: url(../img/dianying.png) no-repeat;
+	margin: 0 auto;
+	padding-top: 22px;
+}
+.head{
+	width: 652px;
+	height: 65px;
+	margin: 0 auto;
+}
+.head h3{
+	font-size: 24px;
+	color: #ff0000;
+	line-height: 45px;
+}
+.head span{
+	font-size: 14px;
+	color: #6a6a6a;
+	
+}
+.body{
+	width: 650px;
+	height: 250px;
+	margin: 0 auto;
+}
+.body .left{
+	width: 330px;
+	height: 250px;
+	float: left;
+}
+.body .left img{
+	padding-top: 10px;
+	float: left;
+}
+.body .left .left-right{
+	width: 156px;
+	height: 241px;
+	float: right;
+	margin-top: 10px;
+	
+}
+.left .left-right a{
+	font-size: 14px;
+	color: #8d8d8d;
+	display: block;
+	line-height: 27px;
+}
+.left .left-right span{
+	font-size: 14px;
+	color: #3f3f3f;
+	margin-left: 10px;
+}
+.right{
+	width: 300px;
+	height: 250px;
+	background-color: #ff80ab;
+	float: right;
+}
+.right1{
+	width: 270px;
+	height: 190px;
+	margin: 15px auto 0 auto;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.right1 .img{
+	width: 131px;
+	height: 189px;
+	float: left;
+	text-align: center;
+	margin-right: 6px;
+}
+.right1 .img a{
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+}
+.right2{
+	width: 269px;
+	height: 43px;
+	margin: 0 auto;
+}
+.right2 a{
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	color: #fff;
+	line-height: 43px;
+	padding-right: 12px;
+}

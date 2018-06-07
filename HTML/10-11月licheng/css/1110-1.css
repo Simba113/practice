@@ -1,0 +1,54 @@
+
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.big-box{
+	width: 680px;
+	height: 450px;
+	border:1px  solid #d9d9d9;
+	
+}
+.head{
+	width: 520px;
+	height: 62px;
+	background: url(../../1110/img/dsj.png) no-repeat  20px center;
+	padding-left: 120px;
+	word-spacing: 17px;
+	position: relative;
+}
+.head a{
+	font-size: 16px;
+	color: #1a1a1a;
+	line-height: 62px;
+
+}
+.head span{
+	font-size: 16px;
+	color: #1a1a1a;
+	position: absolute;
+	right: 0;
+	top:20px
+}
+.body{
+	width: 640px;
+	height: 366px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.body .body-one{
+	width: 114px;
+	height: 174px;
+	float: left;
+	margin-right: 17px;
+	margin-bottom: 17px;
+}
+.body .body-one a{
+	font-size: 14px;
+	line-height: 30px;
+	color: #1a1a1a;
+}

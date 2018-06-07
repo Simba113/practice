@@ -1,0 +1,22 @@
+a{
+	text-decoration: none;
+}
+.big-box{
+	width:503px;
+	height:42px;
+	border-top:58px solid #05B600;
+	border-left:33px solid #05b600;
+	border-right: 33px solid #05B600;
+	border-bottom:58px solid #05B600;
+}
+.box{
+	width: 501px;
+	height:40px;
+	word-spacing: 26px;
+	margin-left: 98px;
+}
+.box a{
+	line-height: 38px;
+	color: #000;
+	
+}

@@ -1,0 +1,10 @@
+div{
+	width:100px;
+	height:100px;
+	border:5px solid #ff80ab;
+	background-color: #ff80ab;
+	background-size: 200px 200px;
+	/*背景background color颜色size大小 url地址image图片*/
+	background-image:url(a.jpg);
+	
+}

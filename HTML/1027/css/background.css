@@ -1,0 +1,51 @@
+#box{
+	width:300px;
+	height:417px;
+	border-top:2px solid #206f96;
+	
+}
+#head{
+	width:300px;
+	height:29px;
+	background-image:url(../img/head.png);
+	background-repeat:repeat-x;
+	border-left:1px solid #cfcfcf;
+	border-right:1px solid #cfcfcf;
+}
+#content{
+	width:298px;
+	height:386px;
+	border:1px solid #cfcfcf; 
+}
+#item1{
+	width:298px;
+	height:57px;
+	background-color:#ffffff;
+	background-image:url(../img/mail.png);
+	background-repeat:no-repeat;
+	background-position:16px 25px;
+}
+#item2{
+	width:298px;
+	height:126px;
+	background-color:#f7f7f7;
+	background-image:url(../img/pineapple.png);
+	background-repeat:no-repeat;
+	background-position:9px 51px;
+}
+#item3{
+	width:298px;
+	height:76px;
+	background-color:#ffffff;
+	background-image:url(../img/laugh.png);
+	background-repeat:no-repeat;
+	background-position:15px 25px;
+}
+#item4{
+	width:298px;
+	height:127px;
+	background-color:#f7f7f7;
+	background-image:url(../img/stars.png);
+	background-repeat:no-repeat;
+	background-position:12px 49px;
+}

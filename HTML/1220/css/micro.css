@@ -1,0 +1,389 @@
+h1,h2,h3{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+div,ul,nav,header,footer,li,a,h1,section,span{
+	box-sizing: border-box;
+}
+.wrap{
+	max-width: 1215px;
+	margin: 0 auto;
+}
+.head{
+	height: 50px;
+	position: relative;
+}
+.head h1{
+	width: 110px;
+	height: 50px;
+	background: url(../img/mi.png) no-repeat;
+	float: left;
+}
+.head-nav{
+	position: absolute;
+	left: 140px;
+	right: 150px;
+	overflow: hidden;
+}
+.head-nav ul{
+	width: 855px;
+	height: 50px;
+	float: left;
+}
+.head-nav li{
+	float: left;
+	height: 50px;
+}
+.head-nav li a{
+	font-size: 14px;
+	color: #262626;
+	line-height: 50px;
+	margin-right: 54px;
+	margin-left: 45px;
+}
+.head-nav li .more{
+	padding-right: 19px;
+	background: url(../img/gd.png) no-repeat 36px center;
+}
+.head-right{
+	width: 146px;
+	height: 50px;
+	float: right;
+	padding-left: 4px;
+}
+.sanjiao{
+	display: inline-block;
+	width: 11px;
+	height: 50px;
+	background: url(../img/ysj.png) no-repeat;
+	float:left;
+	display: none;
+}
+.head-right a img{
+	margin-left: 14px;
+	margin-right: 14px;
+}
+.head-right a{
+	font-size: 16px;
+	color: #000;
+	line-height: 50px;
+	float: left
+}
+.as{
+	padding-bottom: 50px;
+	position: relative;
+}
+.as img{
+	display: block;
+	width: 100%;
+}
+.as-body{
+	position: absolute;
+	left: 73px;
+	top:50%;
+	margin-top: -80.5px;
+}
+.as-body h2{
+	font-size: 50px;
+	color: #000;
+}
+.as-body span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	line-height: 34px;
+}
+.as-body a{
+	display:inline-block;
+	height: 40px;
+	background-color: #000;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.see{
+	padding-bottom: 60px;
+}
+.see:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.see li img{
+	width: 100%;
+}
+.see li{
+	width: 25%;
+	float: left;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.see li h3{
+	font-size: 21px;
+	color: #000;
+	padding-top: 15px;
+}
+.see li span{
+	font-size: 16px;
+	line-height: 20px;
+	color: #000;
+}
+.see li a{
+	display: block;
+	font-size: 13px;
+	color: #009add;
+	line-height: 30px;
+}
+.create{
+	padding-bottom: 31px;
+	position: relative;
+}
+.create img{
+	width: 100%;
+}
+.create-body{
+	position: absolute;
+	left: 73px;
+	top:50%;
+	margin-top: -80.5px;
+}
+.create-body h2{
+	font-size: 50px;
+	color: #000;
+}
+.create-body span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	line-height: 34px;
+}
+.create-body a{
+	display:inline-block;
+	height: 40px;
+	background-color: #000;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.apply:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.apply{
+	padding-bottom: 59px;
+}
+.apply h2{
+	font-size: 25px;
+	color: #000000;
+	line-height: 64px;
+	padding-left: 12px;
+}
+.apply img{
+	width: 100%;
+}
+.apply li{
+	width: 25%;
+	float: left;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.apply li h3{
+	font-size: 22px;
+	color: #000;
+	padding-top: 15px;
+}
+.apply li span{
+	font-size: 16px;
+	color: #000;
+	line-height: 21px;
+}
+.apply li a{
+	display: block;
+	font-size: 14px;
+	color: #0067b8;
+	line-height: 31px;
+}
+.microsoft img{
+	width: 100%;
+}
+.microsoft{
+	position: relative;
+}
+.microsoft-body{
+	position: absolute;
+	left: 73px;
+	top:50%;
+	margin-top: -80.5px;
+}
+.microsoft-body h2{
+	font-size: 50px;
+	color: #000;
+}
+.microsoft-body span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	line-height: 34px;
+}
+.microsoft-body a{
+	display:inline-block;
+	height: 40px;
+	background-color: #000;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.mi{
+	height: 126px;
+}
+.mi a{
+	font-size: 14px;
+	color: #666;
+	line-height: 126px;
+}
+.mi span{
+	display: inline-block;
+	width: 34px;
+	height: 33px;
+	vertical-align: middle;
+	margin-left: 13px;
+}
+.mi .wechat{
+	background: url(../img/wx.png) no-repeat;
+}
+.mi .sina{
+	background: url(../img/gz.png) no-repeat;
+}
+.wrap-backgrond{
+	background-color: #f2f2f2;
+}
+.foot{
+	padding-top: 21px;
+}
+.foot-body:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.foot-body> div{
+	width: 16.666666%;
+	float: left;
+}
+.foot h3{
+	font-size: 14px;
+	color: #616161;
+	line-height: 31px;
+}
+.foot a{
+	display: block;
+	font-size: 12px;
+	color: #666;
+	line-height: 32px;
+}
+.foot .added{
+}
+.foot .shop{
+}
+.foot .education{
+}
+.foot .company{
+}
+.foot .exploit{
+}
+.foot .firm{
+}
+.foot .china{
+	width: 100%;
+}
+.foot .china:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.china a{
+	display: inline-block;
+	margin-right: 26px;
+	line-height: 21px;
+}
+@media all and (max-width:760px){
+	.as-body{
+		display: none;
+	}
+	.create-body{
+		display: none;
+	}
+	.microsoft-body{
+		display: none;
+	}	
+}
+@media all and (max-width:1130px){
+	.sanjiao{
+		display: block;
+	}
+	.head-right{
+		border-left: 1px solid #e5e5e5;
+	}
+}
+@media all and (max-width:1080px){
+	.see li{
+		width: 50%;
+	}
+	.apply li{
+		width: 50%;
+	}
+	.foot-body> div{
+		width: 33.3333%;
+	}
+	.as-body h2{
+		font-size: 28px;
+		color: #000;
+	}
+	.create-body h2{
+		font-size: 28px;
+		color: #000;
+	}
+	.microsoft-body h2{
+		font-size: 28px;
+		color: #000;
+	}
+}
+@media all and (max-width:539px){
+	.see li{
+		width: 100%;
+	}
+	.apply li{
+		width: 100%;
+	}
+	.foot-body> div{
+		width: 100%;
+	}
+	.create-body h2{
+		font-size: 28px;
+		color: #000;
+	}
+	.microsoft-body h2{
+		font-size: 28px;
+		color: #000;
+	}
+}

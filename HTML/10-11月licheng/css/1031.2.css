@@ -1,0 +1,72 @@
+div,ul,li,header,footer{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+	width: 298px;
+	height: 29px;
+	border-top:2px solid #206f96;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #CFCFCF;
+	border-bottom: 1px solid #cfcfcf;
+	background-image: url(../../1031/img/wycp.jpg);
+}
+.head a{
+	font-size: 16px;
+	color: #000;
+	line-height: 29px;
+	margin-left:12px ;
+}
+.body{
+	width: 298px;
+	height: 386px;
+}
+.body .one{
+	height: 57px;
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	word-spacing:8px;
+	padding-left: 49px;
+	padding-top: 12px;
+}
+.body a{
+	font-size: 12px;
+	color: #000;
+	line-height: 26px;
+}
+.body .two{
+	height: 126px;
+	background-color: #f7f7f7;
+	background-image: url(../img/2.png);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	padding-left: 49px;
+	padding-top: 12px;
+	word-spacing: 6px;
+}
+.body .three{
+	height:77px;
+	background-image: url(../img/3.png);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	padding-left: 49px;
+	padding-top: 12px;
+	word-spacing: 8px;
+}
+.body .four{
+	height: 125px;
+	background-color: #f7f7f7;
+	background-image: url(../img/4.png);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	padding-left: 49px;
+	padding-top: 12px;
+	word-spacing: 8px;
+}

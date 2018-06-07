@@ -1,0 +1,45 @@
+#box{
+	width:800px;
+	height:390px;
+	background-color: #ff80ab;
+	background-image: url(../img/it02.jpg) no-repeat;
+	background-position:center 36px;
+	padding-top: 110px;
+}
+#text{
+	width:680px;
+	height: 320px;
+	background-color:#e15671;
+	margin:0 auto;
+	background-image: url(../img/it01.jpg);
+	background-repeat: no-repeat;
+	background-position: 49px center;
+	padding-top: 30px;
+}
+#text div{
+	width: 409px;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 165px;
+	margin-bottom: 10px;
+	padding-left: 77px;
+	line-height: 50px;
+	
+	background-repeat: no-repeat;
+	background-position:10px center;
+}
+#bj01{
+	background-image: url(../img/itbj01.jpg);
+}
+#bj02{
+	background-image: url(../img/itbj02.jpg);
+}
+#bj03{
+	background-image: url(../img/itbj03.jpg);
+}
+#bj04{
+	background-image: url(../img/itbj04.jpg);
+}
+#bj05{
+	background-image: url(../img/itbj05.jpg);
+}

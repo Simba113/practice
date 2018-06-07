@@ -1,0 +1,47 @@
+div,li{
+	box-sizing: border-box;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 800px;
+	height: 500px;
+	background-color: #ff80ab;
+	padding: 22px 50px 0 50px;
+}
+.box{
+	width: 701px;
+	height: 458px;
+	background:#e15671 url(../../1030/img/22.png) no-repeat 260px 25px;
+	padding:90px 0 0 0;
+}
+.box .text{
+	width: 700px;
+	height: 366px;
+	border: 1px solid #ff80ab;
+	background-color: #el5671;
+}
+.text li{
+	width: 701px;
+	background-color: #fff;
+	margin-bottom: 2px;
+	word-spacing: 37px;
+	background-position: 39px 28px;
+	background-repeat: no-repeat;
+	padding-left: 116px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text a{
+	font-size: 14px ;
+	color: #000;
+	line-height: 35px;
+
+}

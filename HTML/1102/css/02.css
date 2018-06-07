@@ -1,0 +1,35 @@
+#com{
+	width:800px;
+	height:500px;
+	border:1px solid #ff80ab;
+	background-color:#ff80ab;
+}
+#miaov{
+	width:758px;
+	height:460px;
+	border:1px solid #e15671;
+	background-color:#e15671;
+	margin:20px 20px 18px 20px;
+	background-image:url(../img/2-背景练习.jpg);
+}
+#div1{
+	width:756px;
+	height:113px;
+    margin:117px 0px 0px 1px;
+	background:url(../img/01.jpg) no-repeat 41px 38px;
+	background-color:#fff;
+}
+#div2{
+	width:756px;
+	height:113px;
+	margin:1px 0px 0px 1px;
+	background:url(../img/02.jpg) no-repeat 39px 38px;
+	background-color:#fff;
+}
+#div3{
+	width:756px;
+	height:113px;
+	margin:1px 0px 0px 1px;
+	background:url(../img/03.jpg) no-repeat 38px 38px;
+	background-color:#fff;
+}

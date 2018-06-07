@@ -1,0 +1,91 @@
+#boster{
+	width:670px;
+	height:340px;
+	padding: 118px 65px 42px;
+	background-color:#ff80ab;
+}
+a{
+	text-decoration: none;
+	color: #000000;	
+}
+
+
+#text1{
+	width:670px;
+	height:40px;
+	background:url(../img/05.jpg) no-repeat;
+	line-height:40px;
+	
+}
+#text2{
+	width:670px;
+	height:40px;
+	background:url(../img/06.jpg) no-repeat;
+	margin: 10px 0 0 0;
+	line-height:40px;
+}
+#text3{
+	width:670px;
+	height:40px;
+	background:url(../img/07.jpg) no-repeat;
+	margin:10px 0 0 0;
+	line-height:40px;
+}
+#text4{
+	width:670px;
+	height:40px;
+	background:url(../img/08.jpg) no-repeat;
+	margin:10px 0 0 0;
+	line-height:40px;
+	
+}
+#text5{
+	width:670px;
+	height:40px;
+	background:url(../img/09.jpg) no-repeat;
+	margin-top:10px;
+	line-height:40px;
+}
+#text6{
+	width:670px;
+	height:40px;
+	background:url(../img/10.jpg) no-repeat;
+	margin-top:10px;
+	line-height:40px;
+}
+#text7{
+	width:670px;
+	height:40px;
+	background:url(../img/11.jpg) no-repeat;
+	margin-top:10px;
+	line-height:40px;
+}
+.left{
+	font-size: 16px;
+	margin-left:23px;
+}
+.fruits a{
+	color:#FFFFFF;
+}
+.apple a{
+	color:#ffffff;
+}
+.meat a{
+	color:#ffffff;
+}
+.fish a{
+	color:#ffffff;
+}
+.food a{
+	color:#ffffff;
+}
+.wine a{
+	color:#ffffff;
+}
+.import a{
+	color:#ffffff;
+}
+.A{
+	margin-left:33px;
+	word-spacing:34px;
+}

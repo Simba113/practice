@@ -1,0 +1,77 @@
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+.big-box{
+	width:800px;
+	height:500px;
+	border:1px solid #ff80ab;
+	background:#ff80ab url(../../1030/img/22.png) no-repeat 300px 42px;
+	
+}
+.big-box .box{
+	width:670px;
+	height:340px;
+	margin-left: 65px;
+	margin-top: 118px;
+}
+.one{
+	font-size: 0;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+
+.one .left{
+	width: 110px;
+	height: 40px;
+	background-color: #f1525e;
+	display: inline-block;
+	vertical-align: top;
+}
+.two .left{
+	background:#f36f2e;
+}
+.left a{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 23px;
+	
+}
+.one .right{
+	width:560px;
+	height:40px;
+	background-color: #fff;
+	vertical-align: top;
+	display: inline-block;
+	word-spacing: 36px;
+}
+.right a{
+	font-size:14px;
+	color: #000000;
+	word-spacing: 10px;
+}
+.right .text{
+	margin-left: 33px;
+	margin-right: 20px;
+}
+.three .left{
+	background:#f9c652;
+}
+.four .left{
+	background:#9cca65;
+}
+.five .left{
+	background:#5ccced;
+}
+.six .left{
+	background:#6faef0;
+}
+.seven .left{
+	background:#a791e3;
+}

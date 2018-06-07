@@ -1,0 +1,86 @@
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h3{
+	margin: 0;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+.big-box{
+	width: 367px;
+	height: 508px;
+}
+.head{
+	width: 335px;
+	height: 48px;
+	margin: 0 auto;
+}
+.head span{
+	border: 4px solid #8bcc00;
+}
+.head h3{
+	display: inline-block;
+	font-size: 24px;
+	color: #000;
+	padding-left: 10px;
+	line-height: 48px;
+}
+.head img{
+	margin-top: 8px;
+	margin-left: 8px;
+}
+.head .right{
+	display: inline-block;
+	float: right;
+	line-height: 48px;
+
+}
+.head .right a{
+	border-right: 1px solid #d8d8d8;
+	padding-right: 5px;
+	color: #0f820c;
+}
+.body{
+	width: 335px;
+	height: 431px;
+	margin: 0 auto;
+}
+.body .list{
+	width: 335px;
+	height: 35px;
+	margin-bottom: 5px;
+}
+.body .list a{
+	font-size: 14px;
+	color: #0f820c;
+	line-height: 35px;
+}
+.body .list span{
+	font-size: 14px;
+	color: #515151;
+	margin-left: 8px;
+}
+.body .list time{
+	font-size: 14px;
+	color: #998ba8;
+	float: right;
+	line-height: 35px;
+}
+.body li:hover .symbol{
+	display: block;
+}
+.body li:hover time{
+	display: none;
+}
+.body .list .symbol{
+	float: right;
+	display: none;
+	margin-top: 12px;
+}

@@ -1,0 +1,37 @@
+#box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #f06997;
+	background-color: #f06997;
+	background-image:url(../img/601.jpg);
+	background-repeat:no-repeat;
+	background-position:center 40px;
+}
+#tab{
+	width: 700px;
+	height:280px;
+	margin: 170px 0 0 50px;
+}
+.nav a{
+	width: 160px;
+	height:40px;
+	background-color:#f8b4cb;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 10px;
+}
+.nav a:hover{
+	background-color:#fff;
+	
+}
+#tab-body{
+	width: 700px;
+	height:240px;
+	background-color:#fff;
+	text-align: center;
+	
+}
+#tab-body img{
+	margin-top:32px;
+}

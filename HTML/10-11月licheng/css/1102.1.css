@@ -1,0 +1,41 @@
+div{
+	box-sizing: border-box;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.big-box{
+	width: 800px;
+	height: 500px;
+	background-color: #ff80ab;
+	padding: 20px 20px;
+}
+.box{
+	width: 759px;
+	height: 461px;
+	background:#e15671 url(../../1030/img/22.png) no-repeat 287px 25px;
+	padding: 116px 1px 2px 2px;
+}
+.box .body{
+	width: 755px;
+	height: 342px;
+}
+.body .one{
+	width: 755px;
+	height: 113px;
+	background-color: #fff;
+}
+.body .two{
+	width: 755px;
+	height: 113px;
+	background-color: #fff;
+	margin-top: 2px;
+}
+.body .three{
+	width: 755px;
+	height: 113px;
+	background-color: #fff;
+	margin-top: 2px;
+}

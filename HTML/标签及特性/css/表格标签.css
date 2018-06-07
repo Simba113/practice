@@ -1,0 +1,21 @@
+表单元素 属于内联块
+	display:inline-biock(变成行内的块)
+ <input type="text" name="" />  文本域
+ <input type="password" name"" /> 密码框
+ <input type="button" name="" value="" /> 按钮  value中写什么,按钮中就显示什么
+ <input type="submit" name="" value="" /> 提交按钮
+ <input type="checkbox" /> 复选框
+下拉菜单
+ <select>
+ 	<option></option>
+ 	<option></option>
+ 	<option></option>
+ </select>
+ 
+ 
+ 
+ 
+ <dl> 自定义列表		 	带margin
+ 	<dt>元素定义表格单元
+ 	<dd>列表项				带margin
+ </dl>

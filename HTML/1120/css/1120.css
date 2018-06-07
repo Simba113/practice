@@ -1,0 +1,204 @@
+h3{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.big-box{
+	width: 620px;
+	height: 447px;
+	background-color: #FCEEF1;
+	padding-top: 13px;
+}
+.head{
+	width: 600px;
+	height: 30px;
+	background-color: #eaf9fe;
+	margin: 0 auto;
+	line-height: 30px;
+}
+.head h3{
+	float: left;
+	font-size: 14px;
+	color: 333;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.head-right{
+	float: right;
+
+
+}
+.head-right a{
+	color: #5f686d;
+	font-size: 12px;
+	
+}
+.bottom{
+	width: 290px;
+	height: 400px;
+	margin-top: 15px;
+	float: left;
+	margin-left: 10px;
+}
+.bottom-left{
+	width: 290px;
+	height: 400px;
+	position: relative;
+}
+.bottom-left-top{
+	width: 290px;
+	height: 286px;
+	margin-bottom: 5px;
+}
+.bottom-left h3{
+	width: 274px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+.bottom-left .an{
+	background: url(../img/toutiao1.png) no-repeat 0 3px;
+}
+.bottom-left .an a{
+	font-size: 14px;
+	color: #323232;
+	margin-left: 20px;
+	line-height: 20px;
+}
+.bottom-left .shuzi{
+	background: url(../img/toutiao2.png) no-repeat 0 3px;
+	padding-left: 20px;
+	position: absolute;
+	left: 100px;
+	top:268px;
+	color: #949085;
+	font-size: 14px;
+	line-height: 20px;
+}
+.bottom-left .shuzi2{
+	background: url(../img/toutiao3.png) no-repeat 0 3px;
+	padding-left: 20px;
+	position: absolute;
+	right: 36px;
+	top:268px;
+	color: #949085;
+	font-size: 14px;
+	line-height: 20px;
+}
+.bottom-left-bottom{
+	width: 290px;
+	height: 20px;
+}
+.bottom-left-bottom a{
+	font-size: 12px;
+	color: #333;
+}
+.fot{
+	width: 190px;
+	height: 30px;
+	font-size: 18px;
+	color: #909090;
+	line-height: 30px;
+}
+.fot span{
+	color: #000;
+}
+.bottom-right{
+	width: 290px;
+	height: 400px;
+	float: right;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+.bottom-right .right{
+	width: 128px;
+	height: 133px;
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+.bottom-right .right a{
+	font-size: 12px;
+	color: #000;
+	line-height: 29px;
+}
+.right .im{
+	background: url(../img/toutiao2.png) no-repeat 0 3px;
+	padding-left: 15px;
+	float: left;
+	font-size: 14px;
+	color: #bfbfbf;
+}
+.right .im2{
+	background: url(../img/toutiao3.png) no-repeat 0 3px;
+	padding-left: 15px;
+	float: right;
+	font-size: 14px;
+	color: #bfbfbf;
+}
+.bottom-right .right .text0{
+	width: 280px;
+	height: 190px;
+}
+.bottom-right .right .text{
+	width: 280px;
+	height: 190px;
+	opacity: 0.7;
+	position: absolute;
+	left: 20px;
+	top: 24px;
+	background: #b7b7b7;
+}
+
+.bottom-right .right .text2{
+	width: 250px;
+	height: 190px;
+	background:#fff;
+	border: 1px solid #000;
+	position: absolute;
+	left: 7px;
+	top: 10px;
+	z-index: 1;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.right .text2 h3{
+	font-size: 20px;
+	color: #014ccc;
+	line-height: 26px;
+}
+.right .text2 span{
+	font-size: 12px;
+	color: #909090;
+}
+.right .text2 .bo1{
+	width: 200px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #909090;
+}
+.text2 .bo1 .bo-left{
+	float: left;
+}
+.text2 .bo1 .bo-right{
+	float: left;
+	margin-left: 30px;
+}
+.text2 .bo{
+	width: 115px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #909090;
+	margin-bottom: 3px;
+}
+.text0 {
+	display: none;
+}
+.bottom-right li:hover .text0{
+	display: block;
+}

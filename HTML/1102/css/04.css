@@ -1,0 +1,44 @@
+#box{
+	width:798px;
+	height:498px;
+	border:1px solid #ff80ab;
+	background:url(../img/401.jpg)no-repeat ;
+}
+#box1{
+	width:734px;
+	height:363px;
+	border:3px solid #e15671;
+	background-color:#fff;
+	margin: 110px 0 0 30px;
+}
+#box2{
+	width:674px;
+	height:304px;
+	border:3px solid #e15671;
+	background-color:#fa837f;
+	margin:30px 0 0 30px;
+}
+#box3{
+	width:614px;
+	height:244px;
+	border:3px solid #f6f7f8;
+	background-color:#855cf9;
+	margin:30px 0 0 30px;
+}
+#box4{
+	width:554px;
+	height:184px;
+	border:3px solid #ffffff;
+	background-color:#40cde0;
+	margin:30px 0 0 30px;
+}
+#box5{
+	width:460px;
+	height:90px;
+	border-top:20px solid #e15671;
+	border-right:20px solid #ea6382;
+	border-bottom:20px solid #ffadc8;
+	border-left:20px solid #ef7088;
+	background-color:#ff80ab;
+	margin:30px 0 0 30px;
+}

@@ -1,0 +1,56 @@
+
+ 块元素的特点{
+ 	独占一行,撑起父级容器,支持所有css命令.
+ 	display:block(变成块元素)
+ 比如:<hr>,(独占一行)他是一个横线.他不需要结束.
+ 	<h1-h6>(设置宽高有效).他是标题或者副标题.           带margin
+ 	<dd>,(支持宽高,独占一行).他是列表项. 				带margin
+ 	<header>,(设置宽高有效,独占一行).他是头部.
+ 	<nav>,(设置宽高有效.独占一行).他是一个导航.
+ 	<footer>,(设置宽高有效,独占一行).他是页脚.
+ 	<section>,(设置宽高有效,独占一行)他是页面上的板块.
+ 	<p>,(设置宽高有效独占一行).他是段落.                带margin
+ 	<ul>(设置宽高有效,独占一行)他是无序列表.             带margin带padding
+ 	<li>(设置宽高有效,独占一行)他是列表项.
+ 	<ol>(设置宽高有效独占一行).他是有序列表.             带padding带padding
+ 	<dl>(设置宽高有效,独占一行).他是自定义列表.        带margin
+ 内联块(行内的块){
+ 	一行显示多个,支持宽高,支持上下margin,没有宽高内容撑起宽高.支持所有css,
+ 	ie67下不支持块元素的inline-block.
+ 	display:inline-biock(变成行内的块)
+ 
+ 内联元素(行内元素){
+ 	一行可以放多个同类元素,不支持宽高,内容可以撑起宽高.支持所有css命令,
+ 	display:inline(变成行内元素)
+ 比如:<a>,(设置宽高无效  一行显示多个)          他加了href这个属性后就可以被点击.就是一个连接.
+ 	<span>,(设置宽高无效,一行显示多个).       他是最常用的行内元素,用他包起来进行一些样式的修改,
+ 	<artion>(设置宽高无效,一行显示多个).他是一个写文章里整段内容的.
+ 	<time>(设置宽高无效,一行显示多个)他是写时间或者日期的.
+ 	<strong>(设置宽高无效,一行显示多个)他是强调粗体的.用他包起来文字会变粗.
+ 	<em>(设置宽高无效一行显示多个).他是强调斜体的.
+ 	<mark>(设置宽高无效,一行显示多个).他是标记.
+ 	<label>(设置宽高无效) 他是标签
+ 	<after>是内联元素,      他是一个伪节点,必须配合contont使用.
+ **/
+<p>里面不要包块元素.
+所有的块元素可以包所有内联元素.
+所有的内联元素不能包块元素.
+包着时候父级用padding.兄弟之前用margin.
+<table>他是表格					默认样式重置{border-collapse:collapse;} 单元格间隙合并
+<thead>他是表格头
+<th>他是元素定义表头					带padding
+<tbody>他是表格主体
+<tr>他是表格行
+<dt>他是元素定义表格单元				带margin
+表单元素 内联快
+ <input type="text" name="" />  文本域
+ <input type="password" name"" /> 密码框
+ <input type="button" name="" value="" /> 按钮  value中写什么,按钮中就显示什么
+ <input type="submit" name="" value="" /> 提交按钮
+ <input type="checkbox" /> 复选框
+下拉菜单
+ <select>
+ 	<option></option>
+ 	<option></option>
+ 	<option></option>
+ </select>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+			<script>
+			// 获取像素比
+			var dpr = window.devicePixelRatio;
+			// 计算缩放比例
+			var ratio = 1 / dpr;
+			//将求出比例写入viewport
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+ratio+',minimum-scale='+ratio+',maximum-scale='+ratio+',user-scalable=no" />')
+			
+			//获取屏幕宽度
+			var dWidth = document.documentElement.clientWidth / 10;
+			// 计算公式： 屏幕宽度 / 10 = html字体大小
+			var html = document.getElementsByTagName('html')[0];
+			html.style.fontSize = dWidth + 'px';
+		</script>
+	</head>
+	<body>
+		<!--手机头部-->
+		<header class="head">
+			<a class="head-left" href=""></a>
+			<form>
+				<input type="text" placeholder="搜索旅行地/酒店/景点" />
+				<a href="#"></a>
+			</form>
+			<a class="head-right" href="#"></a>
+		</header>
+		<!--中间大版块-->
+		<section class="app">
+			<!--年会订酒店-->
+			<div class="img"></div>
+			<!--表格区域(红,蓝,绿,黄)-->
+			<table class="body">
+				<tbody>
+					<tr>
+						<td class="hotel" rowspan="2"><span>酒店</span></td>
+						<td>特价酒店</td>
+						<td>国际酒店</td>
+					</tr>
+					<tr>
+						<td>客栈.民宿</td>
+						<td>高端酒店</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--机票蓝色区域-->
+			<table class="body body2">
+				<tbody>
+					<tr>
+						<td class="hotel" rowspan="2"><span>机票</span></td>
+						<td>低价机票</td>
+						<td>汽车票.船票</td>
+					</tr>
+					<tr>
+						<td>火车票</td>
+						<td>专车.租车</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--旅游绿色区域-->
+			<table class="body body3">
+				<tbody>
+					<tr>
+						<td class="hotel" rowspan="2"><span>旅游</span></td>
+						<td>景点.门票</td>
+						<td>旅游团购</td>
+					</tr>
+					<tr>
+						<td>攻略.美食林</td>
+						<td>周边游</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--借钱.分期游黄色区域-->
+			<table class="body body4">
+				<tr>
+					<td>借钱.分期游</td>
+					<td>保险.车险</td>
+					<td>购物.外汇</td>
+				</tr>
+			</table>
+			<!--签证图片+文字区域-->
+			<ul class="wifi">
+				<li>
+					<a href="#"></a>
+					<span>签证.wifi</span>
+				</li>
+				<li>
+					<a class="exit" href="#"></a>
+					<span>出境游</span>
+				</li>
+				<li>
+					<a class="shuttle" href="#"></a>
+					<span>接送车</span>
+				</li>
+				<li>
+					<a class="one-day" href="#"></a>
+					<span>一日游</span>
+				</li>
+				<li>
+					<a class="wit" href="#"></a>
+					<span>智慧旅游</span>
+				</li>
+			</ul>
+			<!--定制游图片+文字区域-->
+			<ul style="margin-top: 0;" class="wifi">
+				<li>
+					<a href="#"></a>
+					<span>定制游</span>
+				</li>
+				<li>
+					<a class="exit" href="#"></a>
+					<span>家庭游</span>
+				</li>
+				<li>
+					<a class="shuttle" href="#"></a>
+					<span>自由行</span>
+				</li>
+				<li>
+					<a class="one-day" href="#"></a>
+					<span>特价游</span>
+				</li>
+				<li>
+					<a class="wit" href="#"></a>
+					<span>更多</span>
+				</li>
+			</ul>
+			<!--汽车广告区域-->
+			<div class="automobile-img">
+				<a href="#">
+					<img src="../img/qc.png">
+				</a>
+			</div>
+			<!--您可能想去区域-->
+			<div class="possible">
+				<!--想去的头部区域-->
+				<h3><span>你可能想去</span></h3>
+				<!--头部下边区域-->
+				<ul class="beijing">
+					<li>
+						<a href="#">北京</a>
+					</li>
+					<span></span>
+					<li>
+						<a href="#">三亚</a>
+					</li>
+					<span></span>
+					<li>
+						<a href="#">白山</a>
+					</li>
+				</ul>
+				
+			</div>
+			<!--最佳推荐-->
+			<section class="recommend">
+				<!--最佳推荐头部-->
+				<header class="recommend-head">
+					<h3>北京最佳推荐</h3>
+					<div>更多 ></div>
+				</header>
+				<!--一日游-->
+				<div class="recommend-body">
+					<!--一日游左边区域-->
+					<ul class="recommend-body-left">
+						<!--左边的上边区域-->
+						<li class="top">
+							<img src="../img/nc.png">
+							<h6>北京一日游</h6>
+							<span class="sell">已出售 34</span>
+							<div class="top-sumo">
+								<span class="money">$</span>
+								<span class="number">299</span>
+								<span class="rise">起</span>
+							</div>
+						</li>
+						<!--左边的下边区域-->
+						<li class="bottom">
+							<img src="../img/yrjd.png">
+							<h6>附近的酒店</h6>
+							<span>当季精选</span>
+						</li>
+					</ul>
+					<!--一日游右边区域-->
+					<ul class="recommend-body-right">
+						<li style="margin-top: 0;" class="bottom">
+							<img src="../img/yrjd.png">
+							<h6>北京的景点</h6>
+							<span>当季精选</span>
+						</li>
+						<li class="bottom">
+							<img src="../img/yrjd.png">
+							<h6>上地十街</h6>
+							<span>附近的酒店</span>
+						</li>
+						<li class="bottom">
+							<img src="../img/yrjd.png">
+							<h6>北京一日游</h6>
+							<span>度假精选</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--热门目的地区域-->
+			<section class="hot">
+				<!--头部区域-->
+				 <header class="hot-head">
+					<h3><span>热门目的地</span></h3>
+					<div>更多 ></div>
+				</header>
+				<!--目的下面区域-->
+				<ul class="hot-body">
+					<li>
+						<img src="../img/tj.png">
+						<h4>天津</h4>
+						<span>海河边的渤海明珠</span>
+					</li>
+					<li>
+						<img src="../img/sh.png">
+						<h4>上海</h4>
+						<span>魔都东方巴黎</span>
+					</li>
+					<li style="margin-right: 0;">
+						<img src="../img/dj.png">
+						<h4>东京</h4>
+						<span>时尚与传统的城市</span>
+					</li>
+				</ul>
+			</section>
+			<!--热门专题区域-->
+			<section class="subject">
+				<!--头部区域-->
+				<header class="subject-head">
+					<h3><span>热门专题</span></h3>
+					<div>更多 ></div>
+				</header>
+				<!--热门专题下边区域-->
+				<ul class="subject-body">
+					<li>
+						<img src="../img/xf.png">
+						<h4>幸福之地</h4>
+						<span>明星婚礼地盘点</span>
+					</li>
+					<li>
+						<img src="../img/kh.png">
+						<h4>考后疯玩</h4>
+						<span>考完研 嗨一下</span>
+					</li>
+					<li style="margin-right: 0;">
+						<img src="../img/qs.png">
+						<h4>轻松出国</h4>
+						<span>免签出国走一圈</span>
+					</li>
+				</ul>
+			</section>
+			<!--天天特价区域-->
+			<section class="goods">
+				<div class="goods-body">
+					<!--天天特价表格区域-->
+					<table cellpadding="0" cellspacing="0" class="day">
+						<tr>
+							<td class="day-goods" rowspan="2">
+								<div class="day-goods-text">
+									<h4>天天特价</h4>
+									<span>高品质 良心价</span>
+								</div>
+							</td>
+							<td class="spa">
+								<div class="day-goods-text">
+									<h4>温泉最低价</h4>
+									<span style="color: #4aa4d9;">暖心温泉优惠泡</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="spa" style="background-image: url(../img/ss.png);">
+								<div class="day-goods-text">
+									<h4>一折试睡</h4>
+									<span style="color: #ff7a7f;">你入住我报销</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="spa" style="background-image: url(../img/hx.png);">
+								<div class="day-goods-text">
+									<h4>滑雪最低价</h4>
+									<span style="color: #00d19c;">下单立减10元</span>
+								</div>
+							</td>
+							<td class="spa" style="background-image: url(../img/jd.png);">
+								<div class="day-goods-text">
+									<h4>1折订酒店</h4>
+									<span style="color: #ff7a7f;">每天10点开秒</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="spa" style="background-image: url(../img/ym.png);">
+								<div class="day-goods-text">
+									<h4>天天1元秒</h4>
+									<span style="color: #8acb91;">冬季嗨玩榜</span>
+								</div>
+							</td>
+							<td class="spa" style="background-image: url(../img/jsz.png);">
+								<div class="day-goods-text">
+									<h4>1元接送站</h4>
+									<span style="color: #84c2f1;">特价超值任我行</span>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<!--表格尾部区域-->
+					<div class="goods-foot">
+						<span></span>点击领取40元无门槛红包
+						
+					</div>
+				</div>
+			</section>
+			<div class="rim">
+				<header class="rim-head">
+					<ul class="tab">
+						<li>
+							<a href="#">周边游</a>
+						</li>
+						<li>
+							<a href="#">发现酒店</a>
+						</li>
+					</ul>
+					<ul class="all">
+						<li>
+							<a href="#">全部</a>
+						</li>
+						<li>
+							<a href="#">公园</a>
+						</li>
+						<li>
+							<a href="#">博物馆</a>
+						</li>
+						<li>
+							<a href="#">亲子</a>
+						</li>
+						<li>
+							<a href="#">休闲</a>
+						</li>
+					</ul>
+					<div class="city">
+						<h4>城市选择</h4>
+						<span>北京 ></span>
+					</div>
+					<ul class="rim-body">
+						<li>
+							<img src="../img/mp.png">
+							<h4>[门票]<span class="crown"></span>[当天可定]北京圆明园电子成人票(... </h4>
+							<div class="whole">
+								<a href="#">公园</a>
+							</div>
+							<div class="rim-body-bottom">
+								<a class="digit" href="#">$299</a><span>起</span>
+								<a class="check" href="#">查看详情</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<img src="../img/cw.png">
+							<h4>纯玩0购物<span class="crown"></span>帝都省心游<span class="finger"></span>八达岭+定陵<span class="flower"></span>徜徉... </h4>
+							<div class="whole">
+								<a href="#">全程大巴<span></span>公园</a>
+							</div>
+							<div class="rim-body-bottom">
+								<a class="digit" href="#">$299</a><span>起</span>
+								<a class="check" href="#">查看详情</a>
+							</div>
+						</li>
+						<li>
+							<img src="../img/tam.png">
+							<h4>[门票]<span class="crown"></span>[当天可定]北京圆明园电子成人票(... </h4>
+							<div class="whole">
+								<a href="#">全程大巴<span></span>公园</a>
+							</div>
+							<div class="rim-body-bottom">
+								<a class="digit" href="#">$299</a><span>起</span>
+								<a class="check" href="#">查看详情</a>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<img src="../img/g.png">
+							<h4>纯玩0购物<span class="crown"></span>帝都省心游<span class="finger"></span>八达岭+定陵<span class="flower"></span>徜徉... </h4>
+							<div class="whole">
+								<a href="#">全程大巴<span></span>公园</a>
+							</div>
+							<div class="rim-body-bottom">
+								<a class="digit" href="#">$299</a><span>起</span>
+								<a class="check" href="#">查看详情</a>
+							</div>
+						</li>
+					</ul>
+				</header>
+			</div>
+		</section>
+		<!--手机尾部区域-->
+		<footer class="foot">
+			<ul>
+				<li>
+					<a href="#"></a>
+					<span>首页</span>
+				</li>
+				<li>
+					<a class="order" href="#"></a>
+					<span>订单</span>
+				</li>
+				<li>
+					<a class="find" href="#"></a>
+					<span>发现</span>
+				</li>
+				<li>
+					<a class="service" href="#"></a>
+					<span>服务</span>
+				</li>
+				<li>
+					<a class="my" href="#"></a>
+					<span>我的</span>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
