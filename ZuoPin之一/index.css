@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.body{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image:url("./img/bg.jpg");
+    background-repeat:repeat;
+}
+.nav{
+    position:absolute;
+    top:0;
+    left:25px;
+    margin:160px 0 0 0;
+    z-index:999;
+}
+.nav div{
+    width:170px;
+    height:430px;
+    background:url(./img/D-_KeJian_ZuoPin_img_pic_navi01.png);
+}
+.nav div ul{
+    padding-top:125px;
+}
+.nav ul li{
+    position:relative;
+    text-align: center;
+    width:114px;
+    margin-left:30px;
+}
+.nav ul li a{
+    text-decoration:none;
+    text-indent: -999em;
+    font-size: 14px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav ul li:hover{
+    background-color:rgba(255,255,255,.4);
+}
+.wrapper{
+    position:relative;
+    width:1960px;
+    height:1080px;
+}
+.wrapper .one{
+    position:absolute;
+    top:516px;
+    left:861px;
+    width:296px;
+    height:1271px;
+    background:url("./img/1.png");
+}
+.wrapper .tow{
+    position:absolute;
+    top:2719px;
+    left:875px;
+    width:1190px;
+    height:1152px;
+    background:url("./img/2.png");
+}
+.wrapper .three{
+    position:absolute;
+    top:4141px;
+    left:2891px;
+    width:1094px;
+    height:567px;
+    background:url("./img/3.png");
+}
+.wrapper .four{
+    position:absolute;
+    top:2191px;
+    left:4997px;
+    width:710px;
+    height:2407px;
+    background:url("./img/4.png");
+}
+.wrapper .five{
+    position:absolute;
+    top:-1059px;
+    left:5891px;
+    width:917px;
+    height:2340px;
+    background:url("./img/5.png");
+}
+.wrapper .six{
+    position:absolute;
+    top:-1361px;
+    left:3251px;
+    width:1352px;
+    height:168px;
+    background-image:url("./img/6.png");
+}
+.wrapper .seven{
+    position:absolute;
+    top:-1334px;
+    left:803px;
+    width:909px;
+    height:740px;
+    background-image:url("./img/7.png");
+}
+.wrapper .wrap{
+    width:1960px;
+    height:1080px;
+    position:absolute;
+    z-index:6;
+}
+.wrapper .home{
+    background-image:url("./img/pic_home.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:absolute;
+    left:20px;
+    margin-top:-550px;
+
+}
+.wrapper .about{
+    background-image:url("./img/pic_about.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:absolute;
+    top:1810px;
+    left:20px;
+}
+.wrapper .culture{
+    background-image:url("./img/pic_culture.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:absolute;
+    top:3260px;
+    left:1520px;
+    width:1960px;
+    height:1080px;
+    transform:rotate(90deg);
+}
+.wrapper .joinus{
+    background-image:url("./img/pic_joinus.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:absolute;
+    top:4160px;
+    left:3520px;
+    width:1960px;
+    height:1080px;
+    transform:rotate(90deg);
+}
+.wrapper .map{
+    background-image:url("./img/MAP.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:absolute;
+    top:810px;
+    left:4420px;
+    width:1960px;
+    height:1080px;
+    transform:rotate(-90deg);
+}
+.wrapper .guangGao{
+    background-image:url("./img/guangGao.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    position:absolute;
+    top:900px;
+    left:2400px;
+    width:900px;
+    height:600px;
+    transform:rotate(-180deg);
+}
