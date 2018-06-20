@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>on</title>
+	</head>
+	<body>
+		<div id="root">
+			<button v-on:click="changeNum">按钮</button>
+			<button @click="changeNum">按钮</button>
+			<ul>
+				<li v-for="(val,key) in arr">{{val}}</li>
+			</ul>
+		</div>
+		<script src="../vue.js"></script>
+		<script>
+			var app = new Vue({
+				el:'#root',
+				data:{
+					arr:[],
+					num:0,
+				},
+				methods:{
+					changeNum(){
+						let {num} = this;
+						num++;
+						this.num=num;
+						this.arr.push(num)
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

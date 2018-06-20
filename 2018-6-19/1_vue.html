@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<div>
+			<input type="text" v-model="name" />
+			<span v-show>你的名字叫:{{name}}</span>
+		</div>
+		
+		<div>
+			<input type="text" v-model="age" />
+			<span v-show>你的年龄是:{{age}}</span>
+		</div>
+		
+		<div>
+			<input type="text" v-model="gongzuo" />
+			<!--如果要隐藏一个值,有两个方法,1:v-show
+			方法2:
+			<span v-show="gongzuo">你的工作是:{{gongzuo}}</span>-->
+			<span v-if="gongzuo">你的 工作是:{{gongzuo}}</span>
+		</div>
+		
+		<!--<span>你的工作是:{{qianduan}}</span>--> <!--会报错-->
+	</div>
+   
+<script src="vue.js"></script>
+<script>
+	var root = new Vue({
+		//挂载点
+		el:'#app', //相当于要渲染的地方
+		//数据
+		data:{
+			val:'你好世界',
+			name:'a',
+			age:'18',
+			//如果data数据里面没有qianduan,上边调用会报错
+			gongzuo:'null'
+		},
+		
+	});
+</script>
+</body>
+</html>

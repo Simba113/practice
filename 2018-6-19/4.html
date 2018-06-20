@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>for</title>
+	</head>
+	<body>
+		<div id="app">
+			<ul>
+				<!--a in foodList:是每一项在数组foodList里面-->
+				<!--a.price * a.discount :就是每一项的价格乘以每一项的折扣-->
+				<!--a.discount ? a.price * a.discount :a.price: 就是说如果每一项的折扣存在就做这个操作,如果不存在就走后面的;-->
+				<li v-for="a in foodList">{{a.name}} ${{a.discount ? a.price * a.discount :a.price}}</li> 
+			</ul>
+		</div>
+		<script src="vue.js"></script>
+		<script>
+			var root = new Vue({
+				el:'#app',
+				data:{
+					//foodList:['葱','姜','蒜']
+					foodList:[
+						{
+							name:'葱',
+							price:10,
+							discount:0.8
+						},
+						{
+							name:'姜',
+							price:5,
+							discount:0.8
+						},
+						{
+							name:'蒜',
+							price:3,
+							
+						}
+					]
+				}
+			})
+			//v-for
+				//不但能循环数组.也能循环对象
+				//v-for='val in arr'
+				
+				
+			//往数组里面新添加一个
+			root.foodList.push({
+				name:'花椒',
+				price:'2'
+			})
+			
+		</script>
+	</body>
+</html>

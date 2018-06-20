@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>if else</title>
+	</head>
+	<body>
+		<div id="root">
+			{{val}}
+			<div v-if="onOff">div</div>
+			<div v-else>vid</div>
+			
+			<div v-if="color=='red'">red</div>
+			<div v-else-if="color=='green'">green</div>
+			<div v-else>yellow</div>
+		</div>
+		<script src="vue.js"></script>
+		<script>
+			var app = new Vue({
+				el:'#root',
+				data:{
+					val:'你好世界 !',
+					onOff:false,
+					color:'green'
+				}
+			})
+			
+			双花括号是{{放数据的}}
+			挂载到vue
+				new vue({
+					el:'#root',
+					data:{
+						val:''
+					}
+				})
+			
+			1.	v-if = '数据'  条件->true ||false
+				如果条件成立就显示
+			2.	v-else-if
+					v-else-if='数据'	 条件->true || false
+			3.	v-else
+					必须紧跟着v-if或者v-else-if
+			
+			
+		</script>
+	</body>
+</html>
